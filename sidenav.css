@@ -3,6 +3,18 @@
     	position: static;
     	float: none;
     	width: 25%;
+        padding: 0;
+        margin-left: 3%;
+    }
+
+    .navbar .nav-link {
+        padding: 1rem 1rem;
+        padding-left: 1.3rem;
+    }
+
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: 1.3rem;
     }
 
     .navbar-nav {
@@ -16,7 +28,7 @@
     .navbar {
     	position: absolute;
     	display: block;
-    	padding: .5rem 1.5rem;
+    	padding: 0;
     	width: max-content;
     	height: 100%;
     	position: fixed;
@@ -30,6 +42,10 @@
     .navbar a:hover {
     	color: green;
     	background-color: #3858581f;
+    }
+
+    .navbar .last-drop {
+        border-bottom: none;
     }
 
     #topbar {
