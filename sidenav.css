@@ -1,0 +1,45 @@
+
+    .navbar-nav .dropdown-menu {
+    	position: static;
+    	float: none;
+    	width: 25%;
+    }
+
+    .navbar-nav {
+    	display: block;
+    }
+
+    .navbar-expand-md .navbar-nav .dropdown-menu {
+    	position: static;
+    }
+
+    .navbar {
+    	position: absolute;
+    	display: block;
+    	padding: .5rem 1.5rem;
+    	width: max-content;
+    	height: 100%;
+    	position: fixed;
+    }
+
+    .navbar a {
+    	color: black;
+    	border-bottom: 1px solid #bbc7d4;
+    }
+
+    .navbar a:hover {
+    	color: green;
+    	background-color: #3858581f;
+    }
+
+    #topbar {
+    	background-color: #d0b7b773;
+    	height: 100px;
+    }
+
+    #formsspace {
+    	background-color: #715a5a3b;
+    	height: 500px;
+    }
+
+ 
