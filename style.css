@@ -1,5 +1,23 @@
 /*ES CSS*/
 
+.main-container
+{
+    padding: 0;
+}
+/*title bar*/
+.profile-tab1
+{
+	position: absolute;
+	right: 30px;
+}
+@media screen and (max-width: 991px){
+
+.navbar-nav .dropdown-menu
+{
+	position: absolute;
+}
+
+	}
 /*---------Sticky social bar---------*/
 
 .social-bar {
